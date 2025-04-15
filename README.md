@@ -35,7 +35,7 @@ Dưới đây là một số hình ảnh minh họa giao diện của website:
 | ![Screenshot 1](https://github.com/user-attachments/assets/b9a620cf-c02a-42f9-9667-d571463e7533) | ![Screenshot 2](https://github.com/user-attachments/assets/c6c37c14-e000-4b07-8ad4-720da0ab2d68) |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 
-| ![Screenshot 3](https://github.com/user-attachments/assets/e756a6c2-72f4-43f7-8b9f-d327c53d28ba) | ![Screenshot 4](https://github.com/user-attachments/assets/879965ea-d095-41ed-ba0d-691fdf182ffc) |
+| ![Screenshot 3](https://github.com/user-attachments/assets/e756a6c2-72f4-43f7-8b9f-d327c53d28ba) | ![image](https://github.com/user-attachments/assets/0844c388-5648-4d5e-928c-b8e134ee0521)        |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 
 | ![Screenshot 5](https://github.com/user-attachments/assets/69d992b0-4883-41dd-be22-d1789f05163a) | ![Screenshot 6](https://github.com/user-attachments/assets/9f588d60-fb6a-4e55-8231-26d8a3e9a4fa) |
