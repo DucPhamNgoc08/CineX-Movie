@@ -11,7 +11,7 @@
 **Self-host và có tên miền riêng:** bạn có truy cập với cái tên [cinex.space](https://cinex.space/)
 
 ## Cấu Trúc Dự Án
-
+```
 CineX-Movie/
 ├── public/                  # Các file tĩnh như hình ảnh, CSS, JS cho client
 ├── src/                     # Source code chính của ứng dụng
@@ -23,7 +23,7 @@ CineX-Movie/
 ├── .env                     # File cấu hình môi trường (không commit nếu chứa thông tin nhạy cảm)
 ├── package.json             # Quản lý phụ thuộc và scripts của dự án
 └── README.md                # Tài liệu hướng dẫn sử dụng và cài đặt
-
+```
 
 ## Hướng Dẫn Cài Đặt
 
