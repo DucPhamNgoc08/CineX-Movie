@@ -10,6 +10,7 @@
 **Giao diện trải nghiệm:** Mô phỏng các nền tảng xem phim chuyên nghiệp nhằm mang lại cảm giác thật cho người dùng
 **Self-hosted** bạn có thể truy cập với cái tên [cinex.space](https://cinex.space/)
 
+
 ## Hướng Dẫn Cài Đặt
 
 1. **Clone Repository:**  
