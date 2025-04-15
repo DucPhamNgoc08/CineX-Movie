@@ -6,7 +6,18 @@
 
 ## Cấu Trúc Dự Án
 
-CineX-Movie/ ├── assets/ # Tài nguyên như hình ảnh, icon,... ├── css/ # File CSS cho giao diện ├── js/ # Các script JavaScript xử lý tương tác ├── CineX_Khoi/ # Thư mục chứa công việc của thành viên Khôi ├── CineX_Phuc/ # Thư mục chứa công việc của thành viên Phúc ├── CineX_Đức/ # Thư mục chứa công việc của thành viên Đức ├── footer.html # Phần chân trang của website ├── header.html # Phần header khi người dùng đã đăng nhập ├── header-nologin.html # Phần header khi chưa đăng nhập ├── index.html # Trang chủ giới thiệu và truy cập chính ├── login.html # Trang đăng nhập cho người dùng ├── signup.html # Trang đăng ký tài khoản ├── main.html # Giao diện chính sau khi đăng nhập ├── pay.html # Giao diện thanh toán và thuê phim ├── rent-movie.html # Trang thuê phim └── .gitignore
+CineX-Movie/
+├── public/                  # Các file tĩnh như hình ảnh, CSS, JS cho client
+├── src/                     # Source code chính của ứng dụng
+│   ├── components/          # Các component UI
+│   ├── pages/               # Các trang chính của ứng dụng
+│   ├── services/            # Lớp xử lý logic và gọi API
+│   ├── styles/              # Các file style, SASS/CSS
+│   └── utils/               # Các tiện ích hỗ trợ
+├── .env                     # File cấu hình môi trường (không commit nếu chứa thông tin nhạy cảm)
+├── package.json             # Quản lý phụ thuộc và scripts của dự án
+└── README.md                # Tài liệu hướng dẫn sử dụng và cài đặt
+
 
 ## Hướng Dẫn Cài Đặt
 
@@ -15,24 +26,7 @@ CineX-Movie/ ├── assets/ # Tài nguyên như hình ảnh, icon,... ├─�
    ```bash
    git clone https://github.com/DucPhamNgoc08/CineX-Movie.git
 
----
 
-### 5. Hướng Dẫn Sử Dụng
-
-```markdown
-## Hướng Dẫn Sử Dụng
-
-- **Trang chủ (index.html):**  
-  Hiển thị thông tin giới thiệu về website. Người dùng có thể chuyển đến đăng nhập hoặc đăng ký thông qua các đường dẫn có sẵn.
-
-- **Đăng nhập/Đăng ký (login.html, signup.html):**  
-  Người dùng đăng nhập hoặc tạo tài khoản để truy cập vào các tính năng bảo mật và quản lý thông tin cá nhân.
-
-- **Trang chính (main.html):**  
-  Hiển thị danh sách phim và các mục cần thiết, cho phép người dùng lựa chọn phim để thuê và xem.
-
-- **Thanh toán & Thuê phim (pay.html, rent-movie.html):**  
-  Cho phép người dùng tiến hành các giao dịch thuê phim và thanh toán theo hướng dẫn.
 ## Thành Viên Nhóm
 
 Dự án được thực hiện bởi nhóm gồm 4 thành viên:
