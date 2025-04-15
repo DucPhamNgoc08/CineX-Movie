@@ -1,8 +1,14 @@
 ## Giới Thiệu
 
 **CineX Movie** là một giao diện người dùng (Front-End) cho hệ thống xem phim trực tuyến, được phát triển trong khuôn khổ dự án cuối kỳ của khóa học. Mục tiêu của dự án là xây dựng trang web với giao diện hiện đại, dễ sử dụng, thể hiện tính thẩm mỹ và khả năng tương tác cao. Người dùng có thể đăng nhập, đăng ký, xem danh sách phim, thuê phim và thực hiện các giao dịch thanh toán.
-## Tính Năng Nổi Bật
 
+## Điểm Nổi Bật
+**Tên dự án:** CineX – Xem Phim Trực Tuyến  
+**Công nghệ áp dụng:** HTML, CSS, JavaScript  
+**Backend không được sử dụng:** Toàn bộ dự án là giao diện tĩnh Front-End  
+**Dự án học phần cuối:** Khởi đầu từ con số 0, qua quá trình học tập và thực hành  
+**Giao diện trải nghiệm:** Mô phỏng các nền tảng xem phim chuyên nghiệp nhằm mang lại cảm giác thật cho người dùng
+**Self-host và có tên miền riêng:** bạn có truy cập với cái tên [cinex.space](https://cinex.space/)
 
 ## Cấu Trúc Dự Án
 
