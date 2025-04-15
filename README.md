@@ -7,23 +7,8 @@
 **Công nghệ áp dụng:** HTML, CSS, JavaScript  
 **Backend không được sử dụng:** Toàn bộ dự án là giao diện tĩnh Front-End  
 **Dự án học phần cuối:** Khởi đầu từ con số 0, qua quá trình học tập và thực hành  
-**Giao diện trải nghiệm:** Mô phỏng các nền tảng xem phim chuyên nghiệp nhằm mang lại cảm giác thật cho người dùng
-**Self-host và có tên miền riêng:** bạn có truy cập với cái tên [cinex.space](https://cinex.space/)
-
-## Cấu Trúc Dự Án
-```
-CineX-Movie/
-├── public/                  # Các file tĩnh như hình ảnh, CSS, JS cho client
-├── src/                     # Source code chính của ứng dụng
-│   ├── components/          # Các component UI
-│   ├── pages/               # Các trang chính của ứng dụng
-│   ├── services/            # Lớp xử lý logic và gọi API
-│   ├── styles/              # Các file style, SASS/CSS
-│   └── utils/               # Các tiện ích hỗ trợ
-├── .env                     # File cấu hình môi trường (không commit nếu chứa thông tin nhạy cảm)
-├── package.json             # Quản lý phụ thuộc và scripts của dự án
-└── README.md                # Tài liệu hướng dẫn sử dụng và cài đặt
-```
+**Giao diện trải nghiệm:** Mô phỏng các nền tảng xem phim chuyên nghiệp nhằm mang lại cảm giác thật cho người dùng\\
+**Self-host và có tên miền riêng:** bạn có thể truy cập với cái tên [cinex.space](https://cinex.space/)
 
 ## Hướng Dẫn Cài Đặt
 
