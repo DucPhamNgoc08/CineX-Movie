@@ -1,0 +1,162 @@
+html, body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: black;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: var(--Corner-Medium, 12px);
+    border: 10px solid rgba(0, 1, 1, 0.20);
+    background: rgba(0, 1, 1, 0.8);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+    width: 430px;
+    height: 780px;
+    padding-left: 80px;
+    padding-top: 53px;
+}
+
+.signup-box h2 {
+    color: #FFF;
+    font-family: Inter-Bold;
+    font-size: 36px;
+}
+
+.signup-input {
+    font-family: Inter-Regular;
+    font-size: 21px;
+    width: 318px;
+    height: 63px;
+    margin-top: 21px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    background: #000101;
+    color: white;
+    padding-left: 18px;
+}
+
+.signup-input::placeholder {
+    padding-top: 20px;
+    color: #FFF;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    opacity: 0.7;
+}
+
+.captcha-container {
+    margin-top: 20px;
+    width: 307px;
+    height: 67px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.captcha-container label {
+    display: flex;
+    align-items: center;
+    gap: 8px;            
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+  }
+
+.captcha-container input[type="checkbox"] {
+    width: 34px;
+    height: 34px;
+    transform: scale(1);
+    accent-color: white;
+    cursor: pointer;
+}
+
+.signup-button {
+    margin-top: 5px;
+    width: 340px;
+    height: 45px;
+    border-radius: 4px;
+    background: #F00;
+    color: #FFF;
+    font-family: Inter-Bold;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background: rgb(145, 0, 0);
+}
+
+.separator {
+    margin-top: 11px;
+    margin-bottom: 11px;
+    width: 340px;
+    text-align: center;
+    color: #FFF;
+    font-family: Inter-Regular;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.signup-button-code {
+    width: 340px;
+    height: 45px;
+    border-radius: 4px;
+    background: rgba(166, 151, 151, 0.50);
+    color: #FFF;
+    font-family: Inter-Bold;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin-bottom: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.signup-button-code:hover {
+    background: rgba(98, 91, 91, 0.5);
+}
+
+
+.link,.signup-link {
+    color: #FFF;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-decoration-line: underline;
+}
+
+.remember-me {
+    font-family: Inter-Regular;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin: 16px 0;
+    font-size: 16px;
+    color: white;
+}
+
+.normal-text {
+    color: #FFF;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}

@@ -1,0 +1,453 @@
+html, body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* HighLight film */
+.highlight-banner {
+    position: relative;
+    width: 100%;
+}
+
+.highlight-image {
+    position: relative;
+    width: 100%;
+}
+
+.highlight-image img {
+    width: 100%;
+    height: auto;
+}
+
+.highlight-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.8), transparent 70%),
+                linear-gradient(to top, rgba(0,0,0,0.8), transparent 70%);
+    display: flex;
+    align-items: center;
+}
+
+.highlight-content {
+    color: white;
+    padding: 0 17%;
+    max-width: 100%;
+}
+
+.highlight-content h1 {
+    font-family: Inter-ExtraBold;
+    font-size: 64px;
+    margin-bottom: 7px;
+}
+
+.highlight-content p {
+    font-family: Inter-Regular;
+    font-size: 30px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.highlight-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.watch-now {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.watch-now img {
+    margin-left: 18px;
+    width: 20px;
+    height: 30px;
+}
+
+.highlight-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.highlight-awards {
+    display: flex;
+    gap: 10px;
+}
+
+.highlight-awards img {
+    width: 45px;
+    height: 45px;
+}
+
+.content-background {
+    background-color: black;
+    width: 100%;
+    height: 5700px;
+}
+
+.content-text {
+    color: white;
+    text-decoration: none;
+}
+
+.content-logo {
+    margin-top: -60px;
+    margin-left: 100px;
+    position: relative;
+    justify-content: center;
+}
+
+.content-logo img {
+    width: 30%;
+}
+
+.live-movie {
+    position: relative;
+    width: 100%;
+}
+
+.live-movie-content {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.live-movie-info {
+    margin-top: -400px;
+    width: 100%;
+    display: flex;
+    margin-left: 160px;
+}
+
+.live-movie-poster {
+    width: 960px;
+}
+
+.live-movie-poster img {    
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.live-movie-poster h1 {
+    background: linear-gradient(89deg, #FFF 0%, #0EBDC3 60.74%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Inter-ExtraBold;
+    font-size: 64px;
+}
+
+.live-movie-text {
+    margin-top: 100px;
+    margin-left: 37px;
+}
+
+.live-movie-text h2 {
+    font-family: Inter-ExtraBold;
+    font-size: 40px;
+}
+
+.live-movie-text h1 {
+    font-family: Inter-ExtraBold;
+    font-size: 64px;
+}
+
+.live-movie-features {
+    margin-top: 28px;
+}
+
+.live-movie-features img {
+    margin-bottom: 8px;
+    margin-right: 5px;
+}
+
+.live-movie-features li {
+    list-style-type: none;
+    margin-bottom: 16px;
+    font-family: Inter-Light;
+    font-size: 24px;
+}
+
+.live-movie-button {
+    margin-top: 38px;
+}
+
+.live-movie-coop {
+    margin-top: 38px;
+}
+
+.live-movie-coop img {
+    margin-right: 30px;
+}
+
+.live-movie-condition {
+    margin-top: 424px;
+}
+
+.live-movie-condition p {
+    font-family: Inter-Light;
+    font-size: 24px;
+    opacity: 0.7;
+}
+
+.card-content {
+    margin-top: 40px;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.title-card p {
+    font-family: Inter-ExtraBold;
+    width: 100%;
+    font-size: 64px;
+    line-height: normal;
+}
+
+.poster-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.poster {
+    width: 310px;
+    margin-left: 10px;
+}
+
+.top-revenue {
+    font-family: Inter-ExtraBold;
+    margin-right: -5%;
+    color: rgba(155, 153, 153, 0.77);
+    text-align: center;
+    font-size: 400px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.top-revenue-exception {
+    font-family: Inter-ExtraBold;
+    margin-right: -3%;
+    color: rgba(155, 153, 153, 0.77);
+    text-align: center;
+    font-size: 400px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.movie-box {
+    width: 310px;
+    height: 465px;
+    position: relative;
+    cursor: pointer;
+    overflow: visible;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.movie-box img {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.3s ease;
+}
+
+.hover-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+    overflow: hidden;
+    z-index: 10;
+    opacity: 0;
+    transform: scale(1);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+}
+
+.hover-card.active {
+    width: 310px;
+    height: 465px;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 999;
+    overflow: visible;
+}
+
+.movie-box.active {
+    z-index: 100;
+}
+
+.hover-card iframe {
+    width: 100%;
+    height: 60%;
+    border: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.hover-card iframe.playing {
+    opacity: 1;
+}
+
+.hover-content {
+    padding: 10px 15px;
+    color: white;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.actions button {
+    background: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.actions button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.sell-offer-title {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Inter-ExtraBold;
+    width: 100%;
+    font-size: 64px;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.sell-offer-text {
+    font-family: Inter-ExtraBold;
+}
+
+.countdown-clock {
+    font-feature-settings: 'tnum';
+    font-size: 64px;
+    font-family: Inter-ExtraBold;
+    background: linear-gradient(87deg, #515050 0.87%, #F00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-right: 200px;
+}
+
+.sell-offer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin: 40px 100px;
+}
+
+.movie-card {
+    position: relative;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.discount-badge {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+    background-color: #ff0000;
+    color: white;
+    font-family: Inter-Bold;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.movie-card-info {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    position: absolute;
+    top: 517px;
+    width: 375px;
+    height: auto;
+    padding: 15px;
+    color: white;
+    background: rgba(255, 0, 0, 0.6); 
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    z-index: 1;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+}
+
+.old-price {
+    text-decoration: line-through;
+    opacity: 0.7;
+    margin-right: 15px;
+    font-family: Inter-Regular;
+    font-size: 18px;
+}
+
+.new-price {
+    font-family: Inter-Bold;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.movie-features {
+    font-family: Inter-Light;
+    font-size: 20px;
+}
+
+.movie-feature {
+    display: flex;
+    align-items: center;
+}
+
+.movie-feature img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}

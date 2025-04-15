@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineX</title>
+    <link rel="icon" href="assets/logo/Logo2.png">
+    <link rel="stylesheet" href="css/style-login.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/script-login.js"></script>
+    <script src="js/include.js"></script>
+    <script src="js/script-header-sticky.js"></script>
+</head>
+<body>
+    <div data-include="header-nologin.html"></div>
+
+    <div class="content">
+        <img class="background" src="assets/images/homepage/header/Poster-login-signup.png" alt="">
+        <div class="login-container">
+            <div class="login-box">
+                <h2>Đăng nhập</h2>
+                <input class="login-input" type="text" placeholder="Email hoặc số điện thoại di động">
+                <input class="login-input" type="password" placeholder="Mật khẩu">
+
+                <button class="login-button" onclick="window.open('main.html', '_blank')">Đăng nhập</button>
+                <div class="separator">HOẶC</div>
+                <button class="login-button-code" onclick="window.open('main.html', '_blank')">Sử dụng mã đăng nhập</button>
+                
+                <br>
+                <a class="link" href="/CineX_Khoi/pages/supportpage.html">Bạn quên mật khẩu?</a>
+                <br>
+
+                <label class="remember-me">
+                    <input type="checkbox"> Ghi nhớ tôi
+                </label>
+
+                <p class="normal-text">
+                    Bạn mới sử dụng CineX? <a class="signup-link" href="signup.html">Đăng ký ngay.</a>
+                </p>
+
+                <a class="normal-text" href="/CineX_Khoi/pages/supportpage.html">Tìm hiểu thêm</a>
+            </div>
+        </div>
+    </div>
+
+    <div data-include="footer.html"></div>
+</body>
+</html>
