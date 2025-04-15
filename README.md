@@ -7,7 +7,7 @@
 **Công nghệ áp dụng:** HTML, CSS, JavaScript  
 **Backend không được sử dụng:** Toàn bộ dự án là giao diện tĩnh Front-End  
 **Dự án học phần cuối:** Khởi đầu từ con số 0, qua quá trình học tập và thực hành  
-**Giao diện trải nghiệm:** Mô phỏng các nền tảng xem phim chuyên nghiệp nhằm mang lại cảm giác thật cho người dùng\\
+**Giao diện trải nghiệm:** Mô phỏng các nền tảng xem phim chuyên nghiệp nhằm mang lại cảm giác thật cho người dùng \\
 **Self-host và có tên miền riêng:** bạn có thể truy cập với cái tên [cinex.space](https://cinex.space/)
 
 ## Hướng Dẫn Cài Đặt
